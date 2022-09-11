@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+		<title>St. Martin's Episcopal School | Virtual Campus Experience</title>
+		<!-- change viewport for phones -->		
+		<meta id="testViewport" name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script>
+if (screen.width < 768) {
+    var mvp = document.getElementById('testViewport');
+    mvp.setAttribute('content','width=device-width, initial-scale=.8, minimum-scale=.8, maximum-scale=.8');
+}
+</script>
+	
+	<!-- end change viewport for phones -->	
+		
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="mobile-web-app-capable" content="yes" />
+
+
+        <link href="styles.css" rel="stylesheet">
+
+
+		<style type="text/css" title="Default">
+
+			
+			
+
+			/* fullscreen */
+			html {
+				height:100%;
+			}
+			body {
+				height:100%;
+				margin: 0px;
+				overflow:hidden; /* disable scrollbars */
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
+			}
+			/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+			
+			
+			
+		</style>
+
+        
+        
+ <!-- /////////////  BEGIN LIGHTBOX FUNCTIONS A   //////////////////    -->
+    
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+    <script src="fancybox/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.0.6"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+    <script type="text/javascript">
+    function LaunchFancybox(url, fbWidth, fbHeight, fbType)
+    {
+ $.fancybox({
+                'width': fbWidth,
+                'height': fbHeight,
+                'autoSize': false,
+				'type': fbType, 
+				'padding': 0,
+				'overlayColor': '#ccc',
+				href: url,
+				iframe : {
+        preload: false
+    },
+	
+	helpers : {
+        overlay : {
+            css : {
+                'background' : '#000000',
+
+            }
+        }
+    }
+				
+            });
+    }
+	
+</script>
+
+<script type="text/javascript">
+    function LaunchFancybox2(url, fbType)
+    {
+ $.fancybox({
+                'autoSize': false,
+				'type': fbType, 
+				'padding': 0,
+	            'aspectRatio' : true,
+				'overlayColor': '#ccc',
+				href: url,
+				iframe : {
+        preload: false
+    },
+	
+	helpers : {
+        overlay : {
+            css : {
+                'background' : '#000000',
+
+            }
+        }
+    }
+				
+            });
+    }
+	
+</script>
+
+<!-- /////////////  END LIGHTBOX FUNCTIONS   //////////////////    -->
+        	
+
+
+	</head>
+	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
+		<script type="text/javascript" src="pano2vr_player.js">
+		</script>
+		<script type="text/javascript" src="skin.js">
+		</script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQHzglHjCaCpKxZJnX-yd4AmjLqdfL8mo&v=3.exp">
+		</script>
+		<div id="container" style="width:100%;height:100%;overflow:hidden;">
+		<br>Loading...<br><br>
+		</div>
+		<script type="text/javascript">
+	
+			// create the panorama player with the container
+			pano=new pano2vrPlayer("container");
+			// add the skin object
+			skin=new pano2vrSkin(pano);
+			// load the configuration
+		
+			window.addEventListener("load", function() {
+				pano.readConfigUrlAsync("pano.xml");
+			});
+		</script>
+		<noscript>
+			<p><b>Please enable Javascript!</b></p>
+		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
+		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
+		<div style="width:1px;height:1px;"></div>
+
+
+<!-- /////////////  BEGIN PHOTO SLIDESHOWS   //////////////////    -->
+
+
+
+<script type="text/javascript">
+function Admission_Office(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Admission_Office/Admission_Office_01.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Admission Office</strong>", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Athletic_Facilities(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_01.jpg'}, 
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_02.jpg'},
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_03.jpg'},
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_04.jpg'},
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_05.jpg'},
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_06.jpg'},
+                {'href'  : 'photos/Athletic_Facilities/Athletic_Facilities_07.jpg'},
+                ],
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Athletic Facilities</strong> — The Adkerson Gymnasium complex contains two gyms, a fully-equipped weight room, and the Thanksgiving Pool. The Adkerson Gym court is 9,500 square feet, with bleacher seating for nearly 650. The Little Gym is 4,860 square feet.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Center_For_Innovation(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_01.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_02.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_03.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_04.jpg'}, 
+                //{'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_05.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_06.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_07.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_08.jpg'}, 
+                {'href'  : 'photos/Center_For_Innovation/Center_For_Innovation_09.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Gibbs Family Center for Innovation + Design</strong> — The Gibbs Family Center for Innovation + Design is the hub of St. Martin's I+D program. The 4,900 square foot facility, which opened In January 2017, features an Idea Lab, Woodshop, Build Shop, Digital Lab, Production Studio, and meeting spaces.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Chapel(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Chapel/Chapel_01.jpg'}, 
+                {'href'  : 'photos/Chapel/Chapel_02.jpg'},
+                {'href'  : 'photos/Chapel/Chapel_03.jpg'},
+                {'href'  : 'photos/Chapel/Chapel_04.jpg'},
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Dan and Frances White Chapel</strong> — The Dan and Frances White Chapel, located in the heart of campus, is the center of spiritual life at St. Martin’s. As an Episcopal school, St. Martin’s is built on the sure foundation of Christian love that guides and challenges students to build lives of genuine meaning, purpose, and service in the world they will inherit.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Fine_Arts(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_01.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_02.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_03.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_04.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_05.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_06.jpg'}, 
+                {'href'  : 'photos/Fine_Arts/Fine_Arts_07.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Merrick Fine Arts Building</strong> — The Merrick Fine Arts Building features 2,800 square feet of space with a ceramics studio, two 2D drawing studios, a Lower School art room, and a beautiful naturally-lit center gallery to display art.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function George_Cottage(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/George_Cottage/George_Cottage_01.jpg'}, 
+                {'href'  : 'photos/George_Cottage/George_Cottage_02.jpg'}, 
+                {'href'  : 'photos/George_Cottage/George_Cottage_03.jpg'}, 
+                {'href'  : 'photos/George_Cottage/George_Cottage_04.jpg'}, 
+                {'href'  : 'photos/George_Cottage/George_Cottage_05.jpg'}, 
+                {'href'  : 'photos/George_Cottage/George_Cottage_06.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>George Cottage</strong> — George Cottage’s recently expanded and enhanced facility provides a physical environment which supports best practices in early childhood learning. Four outdoor classrooms facilitate the development of motor skills, and interaction with their classmates helps little ones grow socially.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Lower_School(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Lower_School/Lower_School_01.jpg'}, 
+                {'href'  : 'photos/Lower_School/Lower_School_02.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_03.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_04.jpg'},
+                //{'href'  : 'photos/Lower_School/Lower_School_05.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_06.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_07.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_08.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_09.jpg'},
+                {'href'  : 'photos/Lower_School/Lower_School_10.jpg'},
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Lower School</strong> — Lower School’s warm, welcoming classrooms are the setting for small-by-design classes with fewer than 20 students per section, ensuring a low student-teacher ratio. Lower School’s secure setting features a library, STeaM Lab, a dedicated science lab and Spanish classroom, and two playgrounds.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Middle_School(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Middle_School/Middle_School_01.jpg'}, 
+                {'href'  : 'photos/Middle_School/Middle_School_02.jpg'},
+                {'href'  : 'photos/Middle_School/Middle_School_03.jpg'},
+                {'href'  : 'photos/Middle_School/Middle_School_04.jpg'},
+                //{'href'  : 'photos/Middle_School/Middle_School_05.jpg'},
+                //{'href'  : 'photos/Middle_School/Middle_School_06.jpg'},
+                //{'href'  : 'photos/Middle_School/Middle_School_07.jpg'},
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Middle School</strong> — St. Martin’s Middle School offers a challenging, well-rounded curriculum that meets the intellectual, social, emotional, and spiritual needs of young adolescents. Spanning between the Middle and Upper School buildings, the Martin Family Library houses more than 25,000 volumes. ", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Saints_Hall(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Saints_Hall/Saints_Hall_01.jpg'}, 
+                {'href'  : 'photos/Saints_Hall/Saints_Hall_02.jpg'}, 
+                {'href'  : 'photos/Saints_Hall/Saints_Hall_03.jpg'}, 
+                {'href'  : 'photos/Saints_Hall/Saints_Hall_04.jpg'}, 
+                {'href'  : 'photos/Saints_Hall/Saints_Hall_05.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Saints Hall</strong> — often referred to as the dining hall — is a hub of campus activity. With its variety of delicious food, served in a welcoming, comfortable setting, Saints Hall invites camaraderie and fellowship.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Solomon_Theater(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Solomon_Theater/Solomon_Theater_01.jpg'}, 
+                //{'href'  : 'photos/Solomon_Theater/Solomon_Theater_02.jpg'}, 
+                //{'href'  : 'photos/Solomon_Theater/Solomon_Theater_03.jpg'}, 
+                {'href'  : 'photos/Solomon_Theater/Solomon_Theater_04.jpg'}, 
+                {'href'  : 'photos/Solomon_Theater/Solomon_Theater_05.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Solomon Theater</strong> — This 500-seat state-of-the-art theater, with professional lighting and staging, is home to our student productions.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Stadium_Track(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Stadium_Track/Stadium_Track_01.jpg'}, 
+                {'href'  : 'photos/Stadium_Track/Stadium_Track_02.jpg'}, 
+                {'href'  : 'photos/Stadium_Track/Stadium_Track_03.jpg'}, 
+                //{'href'  : 'photos/Stadium_Track/Stadium_Track_04.jpg'}, just don't want to use right now. 6.17.2020
+                //{'href'  : 'photos/Stadium_Track/Stadium_Track_05.jpg'},
+                {'href'  : 'photos/Stadium_Track/Stadium_Track_06.jpg'},
+                //{'href'  : 'photos/Stadium_Track/Stadium_Track_07.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Tony Porter Stadium and the Latter & Blum Track</strong> — The stadium features approximately 2,000 seat bleachers in 10 rows overlooking a multi-purpose (football, soccer, and lacrosse) field. The seven-lane all-weather track is 400 meters.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Upper_School(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Upper_School/Upper_School_01.jpg'}, 
+                {'href'  : 'photos/Upper_School/Upper_School_02.jpg'}, 
+                {'href'  : 'photos/Upper_School/Upper_School_03.jpg'}, 
+                {'href'  : 'photos/Upper_School/Upper_School_04.jpg'}, 
+                //{'href'  : 'photos/Upper_School/Upper_School_05.jpg'}, 
+                {'href'  : 'photos/Upper_School/Upper_School_06.jpg'}, 
+                {'href'  : 'photos/Upper_School/Upper_School_07.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Upper School</strong> — St. Martin’s Upper School challenges and inspires students in a way that not only prepares them for success in college, but also in life. Spanning between the Middle and Upper School buildings, the Martin Family Library houses more than 25,000 volumes. ", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+<script type="text/javascript">
+function Van_Slate_House(index){ 
+        $.fancybox([ 
+                {'href'  : 'photos/Van_Slate_House/Van_Slate_House_01.jpg'}, 
+                //{'href'  : 'photos/Van_Slate_House/Van_Slate_House_02.jpg'}, 
+                {'href'  : 'photos/Van_Slate_House/Van_Slate_House_03.jpg'}, 
+                {'href'  : 'photos/Van_Slate_House/Van_Slate_House_04.jpg'}, 
+                {'href'  : 'photos/Van_Slate_House/Van_Slate_House_05.jpg'}, 
+                ], 
+				
+
+                {
+					'index' : index,
+					padding: 0,
+					autosize: true,
+					openEffect: 'fade',
+                    nextEffect: 'fade', 
+                    prevEffect: 'fade',
+                    arrows: true,
+                    title: "<strong>Van Slate House</strong> — One of the most recognizable buildings on campus is the Van Slate House. The home has served as a residence for several headmasters, including current Head of School Merry Sorrells.", 
+                    
+
+                    helpers:  {
+        title:  {
+                  type : 'outside',
+              },
+        
+    }         
+
+                    }); 
+} 
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- /////////////  END PHOTO SLIDESHOWS  //////////////////    -->
+
+
+	       
+<!-- /////////////  THE SOCIAL MEDIA LIGHTBOX   //////////////////    -->
+
+ <!-- AddToAny BEGIN -->
+    <div id="socialbuttons">
+<p><span>Share with your friends</span></p>
+<div class="a2a_kit a2a_kit_size_44 a2a_default_style"  >
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_pinterest"></a>
+<a class="a2a_button_linkedin"></a>
+<a class="a2a_button_email"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+</div>
+   
+</body>
+</html>
+</html>

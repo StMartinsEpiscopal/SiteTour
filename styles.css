@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document - St. Martin's */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+body, div, h1, h2, h3, span, p {
+			}
+/* fullscreen */
+			
+body {
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #eeeeee;
+	font-size: 10pt;
+}
+
+/* fix for scroll bars on webkit & >=Mac OS X Lion */ 
+			::-webkit-scrollbar {
+				background-color: rgba(0,0,0,0.5);
+				width: 0.75em;
+			}
+			::-webkit-scrollbar-thumb {
+    			background-color:  rgba(255,255,255,0.5);
+			}
+			
+		
+/* general text */			
+h3 {
+	color: #002855;
+	font-weight: 500;
+	font-size: 22pt;
+	margin-bottom: 0px;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+}
+
+
+			
+p {
+	color: #000000;
+	font-weight: 400;
+	font-size: 11pt;
+	line-height: 15pt;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
+
+
+
+
+/* the menu items */
+
+.menutitle {
+	font-size: 20pt;
+	font-weight: 500;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+}
+
+.menuitem {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	text-indent: -2em;
+	line-height: 12pt;
+}
+
+
+/* photos + video tour stop styles */
+
+.caption {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.image-container::after {
+    padding-top: 67.6%;
+    display: block;
+    content: '';
+}
+
+.image-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	max-height: 470px;
+}
+
+/* social buttons */
+
+				
+#socialbuttons {
+	display: none;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #f1f0f0;	
+}
+
+
+#socialbuttons span {
+	color: #002855;
+	font-weight: 500;
+	font-size: 25px;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+}
+
+#socialbuttons a {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+/*  fancybox background and caption in the slideshows  */
+
+.fancybox-skin {
+	background: #002855;
+}
+
+.fancybox-title-undefined-wrap {
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	}
+
+.fancybox-close:hover {
+
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.fancybox-nav span:hover {
+
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+
+.fancybox-title-outside-wrap {
+	line-height: 18px;
+	font-size: 12px;
+}
+
+
+.fancybox-title-float-wrap {
+	color: #002855;
+	padding: 0px;
+	text-align: left;
+}
+
+
+.fancybox-title-float-wrap .child {
+	display: inline-block;
+	background: #002855; 
+	color: #FFF;
+	line-height: 18px;
+	font-size: 12px;
+	white-space: wrap;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+}
+
+
+
+
+.svg:hover { 
+	transform: scale(1.2); 
+	transition: all .2s ease-in-out;
+}
+
+
+.content {
+	color:#777; 
+	width:100%;
+}
+
+/* Galleria controls */
+
+#galleria {
+	height:440px
+}
+			
+#text {
+	margin-left: 0px;
+	margin-right: 0px;
+}
